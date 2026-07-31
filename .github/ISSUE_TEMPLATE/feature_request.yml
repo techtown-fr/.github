@@ -1,0 +1,25 @@
+name: ✨ Demande d'évolution
+description: Proposer une nouvelle fonctionnalité ou une amélioration
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Le besoin
+      description: Quel problème cherche-t-on à résoudre ? Décrivez la situation avant la solution.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: La solution envisagée
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considérées
+    validations:
+      required: false
