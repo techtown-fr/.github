@@ -15,18 +15,19 @@ Nommage des branches : `<type>/<sujet-court>`, par exemple
 
 ## Messages de commit
 
-[Gitmoji](https://gitmoji.dev) suivi du format
-[Conventional Commits](https://www.conventionalcommits.org/fr/) :
+Format [Conventional Commits](https://www.conventionalcommits.org/), rédigé en
+anglais, sans emoji :
 
 ```
-✨ feat: ajoute l'export PDF des factures
-🐛 fix: corrige le décalage de fuseau horaire
-♻️ refactor: extrait la validation dans un module dédié
-⬆️ chore: passe Astro en 7.2
-📝 docs: documente la procédure de déploiement
+feat: add PDF export for invoices
+fix: correct the invoice timezone offset
+refactor: extract validation into a dedicated module
+chore: bump Astro to 7.2
+docs: document the deployment procedure
 ```
 
-Le corps du message explique le *pourquoi* — le *quoi* se lit dans le diff.
+Le corps du message explique le *pourquoi* — le *quoi* se lit dans le diff. Les
+titres de pull request suivent la même convention.
 
 ## Labels
 
